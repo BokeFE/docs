@@ -1,9 +1,11 @@
-1. Array-like Object, 
-    - 定义：
-        - objects with a length property and indexed elements.
-        - which are Object representations of Arrays with a length property.(另一种定义)
-        - 听了那么多次Array-like Object,今天才知道它的确切定义，好丢人啊。
-    - 示例：
+1. ## Array-like Object
+    ### 定义:
+    
+    - objects with a length property and indexed elements.
+    - which are Object representations of Arrays with a length property.(另一种定义)
+    - 听了那么多次Array-like Object,今天才知道它的确切定义，好丢人啊。
+        
+    ### 示例：
     
         ```
         var realArray = ['a', 'b', 'c'];
@@ -14,5 +16,5 @@
           length: 3
         };
         ```
-    - 包含： 
+    ### 包含： 
     `arguments`  `HTMLCollection` `NodeList`
