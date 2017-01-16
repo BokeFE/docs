@@ -1,6 +1,8 @@
 1. Array-like Object, 
     - 定义：
-    which are Object representations of Arrays with a length property。听了那么多次Array-like Object,今天才知道它的确切定义，好丢人啊。
+        - objects with a length property and indexed elements.
+        - which are Object representations of Arrays with a length property.(另一种定义)
+        - 听了那么多次Array-like Object,今天才知道它的确切定义，好丢人啊。
     - 示例：
     
         ```
